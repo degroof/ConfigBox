@@ -1,0 +1,24 @@
+include <ConfigBox.scad>
+specs=[
+  Box(),
+  Circle(),
+  CircularText(),
+  Counterbore(),
+  Countersink(),
+  Grid(),
+  Hexagon(),
+  Hexbore(),
+  Hole(),
+  Knockout(),
+  Oval(),
+  Polygon(),
+  Post(),
+  Shape(),
+  Square(),
+  Squarebore(),
+  Standoff(),
+  Svg(),
+  Text(),
+  Torus()
+];
+makeBox(specs,false,true);
